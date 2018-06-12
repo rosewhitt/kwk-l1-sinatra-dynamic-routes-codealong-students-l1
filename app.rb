@@ -22,6 +22,6 @@ class App < Sinatra::Base
     @number1 = params[:num1].to_i
     @number2 = params[:num2].to_i
     @product = @number1*@number2
-    "The product is #{@product}."
+    puts "The product is #{@product}."
   end
 end
